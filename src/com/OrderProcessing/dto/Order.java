@@ -4,6 +4,7 @@ public class Order {
 
 	private int id;
 	private String status;
+	private int i;
 	public int getId() {
 		return id;
 	}
@@ -15,5 +16,11 @@ public class Order {
 	}
 	public void setStatus(String status) {
 		this.status = status;
+	}
+	public int getI() {
+		return i;
+	}
+	public void setI(int i) {
+		this.i = i;
 	}
 }
